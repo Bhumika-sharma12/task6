@@ -15,19 +15,24 @@ order_date	                DATE            	Date when the order was placed
 
 ship_date	                    DATE            	Date when the product was shipped
 
-** 2. order_details table** 
+**2. order_details table** 
 
 Column Name	                   Data Type                 	Description
 product_id	                INT	                   Foreign key matching the product from orders
+
 order_date	               DATE                      	Date of order to align with orders
+
 price                       NUMERIC	                   Unit price of the product
+
 quantity                   	INT	                         Number of units sold
+
 revenue	                   NUMERIC                     	Total revenue (price × quantity)
+
 order_volume	             INT	                    Number of orders (generally 1 per row)
 
 
 ### ** Process Followed**
-** 1. Data Creation**
+**1. Data Creation**
 Used manually generated entries for orders and order_details to simulate e-commerce transactions.
 
 Ensured date diversity (monthly spread) for trend analysis.
@@ -54,5 +59,5 @@ Total revenue using SUM(revenue).
 
 Count of unique products sold per month using COUNT(DISTINCT product_name).
 
-** 4. Final Output**
+**4. Final Output**
 The result shows monthly revenue trends and product diversity sold over time — useful for business decisions like demand forecasting and marketing planning.
