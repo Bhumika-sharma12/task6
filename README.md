@@ -61,3 +61,10 @@ Count of unique products sold per month using COUNT(DISTINCT product_name).
 
 **4. Final Output**
 The result shows monthly revenue trends and product diversity sold over time — useful for business decisions like demand forecasting and marketing planning.
+
+![image](https://github.com/user-attachments/assets/ed28c2b1-0ed9-4a9e-8261-b779e9b1e74d)
+![image](https://github.com/user-attachments/assets/ef53c125-ebd5-4f79-8110-d28e23dcfb4f)
+![image](https://github.com/user-attachments/assets/f2a9141d-a76b-42ec-a14d-f304802fc0ba)
+
+
+
